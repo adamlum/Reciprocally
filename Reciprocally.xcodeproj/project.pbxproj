@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD1A8E0014D901C70013EEDD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A8DFF14D901C70013EEDD /* Reachability.m */; };
+		FD1A8E0214D905870013EEDD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1A8E0114D905870013EEDD /* SystemConfiguration.framework */; };
+		FD1A8E0414D90A540013EEDD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1A8E0314D90A540013EEDD /* Icon.png */; };
+		FD1A8E0614D90A5E0013EEDD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1A8E0514D90A5E0013EEDD /* Icon@2x.png */; };
+		FD1A8E0814D9125F0013EEDD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1A8E0714D9125F0013EEDD /* iAd.framework */; };
+		FD3CE19014D85BA10073B6D1 /* ReciprocalLink+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3CE18F14D85BA10073B6D1 /* ReciprocalLink+Create.m */; };
+		FD3CE19314D8678F0073B6D1 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3CE19214D8678F0073B6D1 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FD3CE19B14D880A40073B6D1 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE19A14D880A40073B6D1 /* checkmark.png */; };
+		FD3CE19D14D884750073B6D1 /* ximage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE19C14D884750073B6D1 /* ximage.png */; };
+		FD3CE1A014D88B000073B6D1 /* LinkDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3CE19F14D88B000073B6D1 /* LinkDetailsViewController.m */; };
+		FDC8B3CD14D73D6600488367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3CC14D73D6600488367 /* UIKit.framework */; };
+		FDC8B3CF14D73D6600488367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3CE14D73D6600488367 /* Foundation.framework */; };
+		FDC8B3D114D73D6600488367 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3D014D73D6600488367 /* CoreGraphics.framework */; };
+		FDC8B3D714D73D6600488367 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC8B3D514D73D6600488367 /* InfoPlist.strings */; };
+		FDC8B3D914D73D6600488367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B3D814D73D6600488367 /* main.m */; };
+		FDC8B3DD14D73D6600488367 /* ReciprocallyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B3DC14D73D6600488367 /* ReciprocallyAppDelegate.m */; };
+		FDC8B3E014D73D6600488367 /* iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC8B3DE14D73D6600488367 /* iphone.storyboard */; };
+		FDC8B3F814D73E4B00488367 /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3F514D73E1800488367 /* libQuickDialog.a */; };
+		FDC8B3FA14D73F4A00488367 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3F914D73F4A00488367 /* CoreData.framework */; };
+		FDC8B3FC14D73F5200488367 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3FB14D73F5200488367 /* MapKit.framework */; };
+		FDC8B3FE14D73F5A00488367 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC8B3FD14D73F5A00488367 /* CoreLocation.framework */; };
+		FDC8B40114D73F9A00488367 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B40014D73F9A00488367 /* HomeTableViewController.m */; };
+		FDC8B40614D740EE00488367 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B40514D740EE00488367 /* CoreDataTableViewController.m */; };
+		FDC8B40914D744ED00488367 /* Reciprocally.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B40714D744ED00488367 /* Reciprocally.xcdatamodeld */; };
+		FDC8B40C14D7459400488367 /* ReciprocalLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B40B14D7459400488367 /* ReciprocalLink.m */; };
+		FDC8B41E14D7645800488367 /* AddURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8B41D14D7645800488367 /* AddURLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC8B3F214D73E1800488367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC8B3E914D73E1800488367 /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D80B0E3313E052DF00FA85CA;
+			remoteInfo = QuickDialogExample;
+		};
+		FDC8B3F414D73E1800488367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC8B3E914D73E1800488367 /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C542393145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		FDC8B3F614D73E3A00488367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC8B3E914D73E1800488367 /* QuickDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C542392145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD1A8DF814D8F4420013EEDD /* LinkDetailsViewControllerDelegeate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkDetailsViewControllerDelegeate.h; sourceTree = "<group>"; };
+		FD1A8DF914D8F6AE0013EEDD /* AddURLViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddURLViewControllerDelegate.h; sourceTree = "<group>"; };
+		FD1A8DFE14D901C70013EEDD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FD1A8DFF14D901C70013EEDD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FD1A8E0114D905870013EEDD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FD1A8E0314D90A540013EEDD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FD1A8E0514D90A5E0013EEDD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FD1A8E0714D9125F0013EEDD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FD3CE18E14D85BA10073B6D1 /* ReciprocalLink+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReciprocalLink+Create.h"; sourceTree = "<group>"; };
+		FD3CE18F14D85BA10073B6D1 /* ReciprocalLink+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ReciprocalLink+Create.m"; sourceTree = "<group>"; };
+		FD3CE19114D8678F0073B6D1 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		FD3CE19214D8678F0073B6D1 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		FD3CE19A14D880A40073B6D1 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		FD3CE19C14D884750073B6D1 /* ximage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ximage.png; sourceTree = "<group>"; };
+		FD3CE19E14D88B000073B6D1 /* LinkDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkDetailsViewController.h; sourceTree = "<group>"; };
+		FD3CE19F14D88B000073B6D1 /* LinkDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkDetailsViewController.m; sourceTree = "<group>"; };
+		FDC8B3C814D73D6600488367 /* Reciprocally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reciprocally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC8B3CC14D73D6600488367 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDC8B3CE14D73D6600488367 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDC8B3D014D73D6600488367 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDC8B3D414D73D6600488367 /* Reciprocally-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reciprocally-Info.plist"; sourceTree = "<group>"; };
+		FDC8B3D614D73D6600488367 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDC8B3D814D73D6600488367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDC8B3DA14D73D6600488367 /* Reciprocally-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reciprocally-Prefix.pch"; sourceTree = "<group>"; };
+		FDC8B3DB14D73D6600488367 /* ReciprocallyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReciprocallyAppDelegate.h; sourceTree = "<group>"; };
+		FDC8B3DC14D73D6600488367 /* ReciprocallyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReciprocallyAppDelegate.m; sourceTree = "<group>"; };
+		FDC8B3DF14D73D6600488367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iphone.storyboard; sourceTree = "<group>"; };
+		FDC8B3E914D73E1800488367 /* QuickDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickDialog.xcodeproj; path = QuickDialog/QuickDialog.xcodeproj; sourceTree = "<group>"; };
+		FDC8B3F914D73F4A00488367 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDC8B3FB14D73F5200488367 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FDC8B3FD14D73F5A00488367 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FDC8B3FF14D73F9A00488367 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		FDC8B40014D73F9A00488367 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		FDC8B40414D740EE00488367 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		FDC8B40514D740EE00488367 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		FDC8B40814D744ED00488367 /* Reciprocally.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reciprocally.xcdatamodel; sourceTree = "<group>"; };
+		FDC8B40A14D7459400488367 /* ReciprocalLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciprocalLink.h; sourceTree = "<group>"; };
+		FDC8B40B14D7459400488367 /* ReciprocalLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReciprocalLink.m; sourceTree = "<group>"; };
+		FDC8B41C14D7645800488367 /* AddURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddURLViewController.h; sourceTree = "<group>"; };
+		FDC8B41D14D7645800488367 /* AddURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddURLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC8B3C514D73D6600488367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1A8E0814D9125F0013EEDD /* iAd.framework in Frameworks */,
+				FD1A8E0214D905870013EEDD /* SystemConfiguration.framework in Frameworks */,
+				FDC8B3FE14D73F5A00488367 /* CoreLocation.framework in Frameworks */,
+				FDC8B3FC14D73F5200488367 /* MapKit.framework in Frameworks */,
+				FDC8B3FA14D73F4A00488367 /* CoreData.framework in Frameworks */,
+				FDC8B3F814D73E4B00488367 /* libQuickDialog.a in Frameworks */,
+				FDC8B3CD14D73D6600488367 /* UIKit.framework in Frameworks */,
+				FDC8B3CF14D73D6600488367 /* Foundation.framework in Frameworks */,
+				FDC8B3D114D73D6600488367 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD1A8DF614D8F3180013EEDD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A8DF814D8F4420013EEDD /* LinkDetailsViewControllerDelegeate.h */,
+				FD1A8DF914D8F6AE0013EEDD /* AddURLViewControllerDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		FD3CE19914D87DF30073B6D1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8B3FF14D73F9A00488367 /* HomeTableViewController.h */,
+				FDC8B40014D73F9A00488367 /* HomeTableViewController.m */,
+				FDC8B41C14D7645800488367 /* AddURLViewController.h */,
+				FDC8B41D14D7645800488367 /* AddURLViewController.m */,
+				FD3CE19E14D88B000073B6D1 /* LinkDetailsViewController.h */,
+				FD3CE19F14D88B000073B6D1 /* LinkDetailsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FDC8B3BD14D73D6600488367 = {
+			isa = PBXGroup;
+			children = (
+				FD1A8E0714D9125F0013EEDD /* iAd.framework */,
+				FD1A8E0514D90A5E0013EEDD /* Icon@2x.png */,
+				FD1A8E0314D90A540013EEDD /* Icon.png */,
+				FD1A8E0114D905870013EEDD /* SystemConfiguration.framework */,
+				FDC8B3FD14D73F5A00488367 /* CoreLocation.framework */,
+				FDC8B3FB14D73F5200488367 /* MapKit.framework */,
+				FDC8B3F914D73F4A00488367 /* CoreData.framework */,
+				FDC8B3D214D73D6600488367 /* Reciprocally */,
+				FDC8B3CB14D73D6600488367 /* Frameworks */,
+				FDC8B3C914D73D6600488367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC8B3C914D73D6600488367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8B3C814D73D6600488367 /* Reciprocally.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC8B3CB14D73D6600488367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8B3E914D73E1800488367 /* QuickDialog.xcodeproj */,
+				FDC8B3CC14D73D6600488367 /* UIKit.framework */,
+				FDC8B3CE14D73D6600488367 /* Foundation.framework */,
+				FDC8B3D014D73D6600488367 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC8B3D214D73D6600488367 /* Reciprocally */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A8DF614D8F3180013EEDD /* Protocols */,
+				FD3CE19914D87DF30073B6D1 /* View Controllers */,
+				FDC8B40314D740A600488367 /* Classes */,
+				FDC8B40214D7409B00488367 /* Images */,
+				FDC8B3DB14D73D6600488367 /* ReciprocallyAppDelegate.h */,
+				FDC8B3DC14D73D6600488367 /* ReciprocallyAppDelegate.m */,
+				FDC8B3DE14D73D6600488367 /* iphone.storyboard */,
+				FDC8B3D314D73D6600488367 /* Supporting Files */,
+				FDC8B40714D744ED00488367 /* Reciprocally.xcdatamodeld */,
+			);
+			path = Reciprocally;
+			sourceTree = "<group>";
+		};
+		FDC8B3D314D73D6600488367 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8B3D414D73D6600488367 /* Reciprocally-Info.plist */,
+				FDC8B3D514D73D6600488367 /* InfoPlist.strings */,
+				FDC8B3D814D73D6600488367 /* main.m */,
+				FDC8B3DA14D73D6600488367 /* Reciprocally-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDC8B3EA14D73E1800488367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8B3F314D73E1800488367 /* QuickDialogExample.app */,
+				FDC8B3F514D73E1800488367 /* libQuickDialog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC8B40214D7409B00488367 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FD3CE19C14D884750073B6D1 /* ximage.png */,
+				FD3CE19A14D880A40073B6D1 /* checkmark.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FDC8B40314D740A600488367 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A8DFE14D901C70013EEDD /* Reachability.h */,
+				FD1A8DFF14D901C70013EEDD /* Reachability.m */,
+				FD3CE19114D8678F0073B6D1 /* GDataXMLNode.h */,
+				FD3CE19214D8678F0073B6D1 /* GDataXMLNode.m */,
+				FDC8B40A14D7459400488367 /* ReciprocalLink.h */,
+				FDC8B40B14D7459400488367 /* ReciprocalLink.m */,
+				FDC8B40414D740EE00488367 /* CoreDataTableViewController.h */,
+				FDC8B40514D740EE00488367 /* CoreDataTableViewController.m */,
+				FD3CE18E14D85BA10073B6D1 /* ReciprocalLink+Create.h */,
+				FD3CE18F14D85BA10073B6D1 /* ReciprocalLink+Create.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC8B3C714D73D6600488367 /* Reciprocally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC8B3E614D73D6600488367 /* Build configuration list for PBXNativeTarget "Reciprocally" */;
+			buildPhases = (
+				FDC8B3C414D73D6600488367 /* Sources */,
+				FDC8B3C514D73D6600488367 /* Frameworks */,
+				FDC8B3C614D73D6600488367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC8B3F714D73E3A00488367 /* PBXTargetDependency */,
+			);
+			name = Reciprocally;
+			productName = Reciprocally;
+			productReference = FDC8B3C814D73D6600488367 /* Reciprocally.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC8B3BF14D73D6600488367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Adam Lum";
+			};
+			buildConfigurationList = FDC8B3C214D73D6600488367 /* Build configuration list for PBXProject "Reciprocally" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDC8B3BD14D73D6600488367;
+			productRefGroup = FDC8B3C914D73D6600488367 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FDC8B3EA14D73E1800488367 /* Products */;
+					ProjectRef = FDC8B3E914D73E1800488367 /* QuickDialog.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FDC8B3C714D73D6600488367 /* Reciprocally */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FDC8B3F314D73E1800488367 /* QuickDialogExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QuickDialogExample.app;
+			remoteRef = FDC8B3F214D73E1800488367 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FDC8B3F514D73E1800488367 /* libQuickDialog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuickDialog.a;
+			remoteRef = FDC8B3F414D73E1800488367 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC8B3C614D73D6600488367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC8B3D714D73D6600488367 /* InfoPlist.strings in Resources */,
+				FDC8B3E014D73D6600488367 /* iphone.storyboard in Resources */,
+				FD3CE19B14D880A40073B6D1 /* checkmark.png in Resources */,
+				FD3CE19D14D884750073B6D1 /* ximage.png in Resources */,
+				FD1A8E0414D90A540013EEDD /* Icon.png in Resources */,
+				FD1A8E0614D90A5E0013EEDD /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC8B3C414D73D6600488367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC8B3D914D73D6600488367 /* main.m in Sources */,
+				FDC8B3DD14D73D6600488367 /* ReciprocallyAppDelegate.m in Sources */,
+				FDC8B40114D73F9A00488367 /* HomeTableViewController.m in Sources */,
+				FDC8B40614D740EE00488367 /* CoreDataTableViewController.m in Sources */,
+				FDC8B40914D744ED00488367 /* Reciprocally.xcdatamodeld in Sources */,
+				FDC8B40C14D7459400488367 /* ReciprocalLink.m in Sources */,
+				FDC8B41E14D7645800488367 /* AddURLViewController.m in Sources */,
+				FD3CE19014D85BA10073B6D1 /* ReciprocalLink+Create.m in Sources */,
+				FD3CE19314D8678F0073B6D1 /* GDataXMLNode.m in Sources */,
+				FD3CE1A014D88B000073B6D1 /* LinkDetailsViewController.m in Sources */,
+				FD1A8E0014D901C70013EEDD /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC8B3F714D73E3A00488367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickDialog;
+			targetProxy = FDC8B3F614D73E3A00488367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC8B3D514D73D6600488367 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC8B3D614D73D6600488367 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDC8B3DE14D73D6600488367 /* iphone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC8B3DF14D73D6600488367 /* en */,
+			);
+			name = iphone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC8B3E414D73D6600488367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDC8B3E514D73D6600488367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adam Lum";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Lum";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "00347B8E-6CDE-40F7-B18D-7ED36777B94D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00347B8E-6CDE-40F7-B18D-7ED36777B94D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC8B3E714D73D6600488367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reciprocally/Reciprocally-Prefix.pch";
+				INFOPLIST_FILE = "Reciprocally/Reciprocally-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"${SDK_DIR}\"/usr/include/libxml2 \"${PROJECT_DIR}/QuickDialog\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDC8B3E814D73D6600488367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adam Lum";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Lum";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reciprocally/Reciprocally-Prefix.pch";
+				INFOPLIST_FILE = "Reciprocally/Reciprocally-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00347B8E-6CDE-40F7-B18D-7ED36777B94D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00347B8E-6CDE-40F7-B18D-7ED36777B94D";
+				SKIP_INSTALL = NO;
+				"SKIP_INSTALL[sdk=*]" = NO;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/** \"${SDK_DIR}/usr/include/libxml2\"";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"${PROJECT_DIR}/QuickDialog\"/** \"${SDK_DIR}/usr/include/libxml2\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC8B3C214D73D6600488367 /* Build configuration list for PBXProject "Reciprocally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC8B3E414D73D6600488367 /* Debug */,
+				FDC8B3E514D73D6600488367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC8B3E614D73D6600488367 /* Build configuration list for PBXNativeTarget "Reciprocally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC8B3E714D73D6600488367 /* Debug */,
+				FDC8B3E814D73D6600488367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDC8B40714D744ED00488367 /* Reciprocally.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDC8B40814D744ED00488367 /* Reciprocally.xcdatamodel */,
+			);
+			currentVersion = FDC8B40814D744ED00488367 /* Reciprocally.xcdatamodel */;
+			path = Reciprocally.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDC8B3BF14D73D6600488367 /* Project object */;
+}

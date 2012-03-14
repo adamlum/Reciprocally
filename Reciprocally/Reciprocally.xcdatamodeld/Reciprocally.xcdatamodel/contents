@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ReciprocalLink" representedClassName="ReciprocalLink" syncable="YES">
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isLinked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="linkDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ReciprocalLink" positionX="160" positionY="192" width="128" height="150"/>
+    </elements>
+</model>
